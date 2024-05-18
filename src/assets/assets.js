@@ -264,7 +264,8 @@ export const food_list = [
         image: food_1,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Salad",
+        h_id: "1"
     },
 
     {
@@ -273,7 +274,8 @@ export const food_list = [
         image: food_2,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Salad",
+        h_id: "1"
     },
 
     {
@@ -282,7 +284,8 @@ export const food_list = [
         image: food_3,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Salad",
+        h_id: "1"
     },
 
     {
@@ -291,7 +294,8 @@ export const food_list = [
         image: food_4,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Salad",
+        h_id: "2"
     },
 
     {
@@ -300,7 +304,8 @@ export const food_list = [
         image: food_5,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Rolls",
+        h_id: "2"
     },
 
     {
@@ -309,7 +314,8 @@ export const food_list = [
         image: food_6,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Rolls",
+        h_id: "2"
     },
 
     {
@@ -318,7 +324,8 @@ export const food_list = [
         image: food_7,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Rolls",
+        h_id: "3"
     },
 
     {
@@ -327,7 +334,8 @@ export const food_list = [
         image: food_8,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        category: "Rolls",
+        h_id: "3"
     },
 
     {
@@ -336,7 +344,8 @@ export const food_list = [
         image: food_9,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Deserts",
+        h_id: "3"
     },
 
     
@@ -346,7 +355,8 @@ export const food_list = [
         image: food_10,
         price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Deserts",
+        h_id: "4"
     },
 
     
@@ -356,7 +366,8 @@ export const food_list = [
         image: food_11,
         price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Deserts",
+        h_id: "4"
     },
 
     
@@ -366,7 +377,8 @@ export const food_list = [
         image: food_12,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        category: "Deserts",
+        h_id: "4"
     },
 
     
@@ -376,7 +388,8 @@ export const food_list = [
         image: food_13,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Sandwich",
+        h_id: "5"
     },
 
     {
@@ -385,7 +398,8 @@ export const food_list = [
         image: food_14,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Sandwich",
+        h_id: "5"
     },
 
     {
@@ -394,7 +408,8 @@ export const food_list = [
         image: food_15,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Sandwich",
+        h_id: "5"
     },
 
     {
@@ -403,7 +418,8 @@ export const food_list = [
         image: food_16,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        category: "Sandwich",
+        h_id: "6"
     },
 
     {
@@ -412,7 +428,8 @@ export const food_list = [
         image: food_17,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Cake",
+        h_id: "6"
     },
 
     {
@@ -421,7 +438,8 @@ export const food_list = [
         image: food_18,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Cake",
+        h_id: "6"
     },
 
     {
@@ -430,7 +448,8 @@ export const food_list = [
         image: food_19,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Cake",
+        h_id: "7"
     },
 
     {
@@ -439,7 +458,8 @@ export const food_list = [
         image: food_20,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        category: "Cake",
+        h_id: "7"
     },
 
     {
@@ -448,7 +468,8 @@ export const food_list = [
         image: food_21,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        h_id: "7"
     },
 
     {
@@ -457,7 +478,8 @@ export const food_list = [
         image: food_22,
         price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        h_id: "8"
     },
 
     {
@@ -466,7 +488,8 @@ export const food_list = [
         image: food_23,
         price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        h_id: "8"
     },
 
     {
@@ -475,7 +498,8 @@ export const food_list = [
         image: food_24,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        h_id: "8"
     },
     
     {
@@ -484,7 +508,8 @@ export const food_list = [
         image: food_25,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Pasta",
+        h_id: "9"
     },
 
     {
@@ -493,7 +518,8 @@ export const food_list = [
         image: food_26,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Pasta",
+        h_id: "9"
     },
 
     {
@@ -502,7 +528,8 @@ export const food_list = [
         image: food_27,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Pasta",
+        h_id: "9"
     },
 
     {
@@ -511,7 +538,8 @@ export const food_list = [
         image: food_28,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        category: "Pasta",
+        h_id: "10"
     },
 
     {
@@ -520,7 +548,8 @@ export const food_list = [
         image: food_29,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Noodles",
+        h_id: "10"
     },
 
     {
@@ -529,7 +558,8 @@ export const food_list = [
         image: food_30,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Noodles",
+        h_id: "10"
     },
 
     {
@@ -538,7 +568,8 @@ export const food_list = [
         image: food_31,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Noodles",
+        h_id: "10"
     },
 
     {
@@ -547,7 +578,8 @@ export const food_list = [
         image: food_32,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        category: "Noodles",
+        h_id: "10"
     }
 ]
 

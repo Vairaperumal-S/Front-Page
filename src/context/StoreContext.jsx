@@ -1,5 +1,6 @@
 
 import React, { createContext, useEffect, useState } from "react";
+import { hotel_list } from "../assets/assets";
 
 
 
@@ -80,6 +81,48 @@ const StoreContextProvider = (props) => {
         return totalAmount;
     }
     
+    const data = hotel_list
+
+    const [filterData, setFilterData] = useState([]);
+    const [wordEntered, setwordEntered] = useState("");
+
+    const handleFilter = (event) => {
+        const searchWord = event.target.value;
+        setwordEntered(searchWord);
+
+        const newFilter = data.filter((value) => {
+            return value.hotel_name.toLowerCase().includes(searchWord.toLowerCase());
+        });
+
+        if (searchWord === "") {
+            setFilterData([]);
+        }
+        else {
+            setFilterData(newFilter);
+        }
+    };
+
+    const clearInput = () => {
+        setFilterData([]);
+        setwordEntered("");
+        // window.location.reload();
+        sethotel("Every")
+    }
+
+    const handleValue = (arg) => {
+        // let restaurant = document.getElementById("rest");
+        let ans = arg;
+        console.log(ans+"\t");
+        // console.log(arg);
+        setwordEntered(ans);
+        if (ans !== "") {
+            setFilterData([]);
+        }
+    }
+
+
+
+    const [hotel,sethotel] = useState("Every");
 
     const contextValue = {
         user,
@@ -91,7 +134,18 @@ const StoreContextProvider = (props) => {
         removeFromCart,
         getTotalCartAmount,
         token,
-        setToken,url
+        setToken,url,
+
+        handleFilter,
+        clearInput,
+        handleValue,
+        filterData,
+        setFilterData,
+        wordEntered,
+        setwordEntered,
+
+        hotel,
+        sethotel
     }
 
     return (
